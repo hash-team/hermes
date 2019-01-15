@@ -221,7 +221,7 @@ func main() {
 
 ```
 {
-   "error": { "code": "...", "message": "..."}
+   "error": { "code": ..., "message": "..."}
 }
 
 ```
@@ -233,7 +233,7 @@ func main() {
 
 | 字段        | 类型    | 解释     |
 | ----------- | ------- | -------- |
-| code       | string | 返回结果码 |
+| code       | int   | 返回结果码 |
 | message    | string | 返回结果信息  |
 
 错误码对照表见文档底部。
@@ -267,7 +267,7 @@ curl -i -H 'Content-Type: application/json' -H 'X-Hermes-Key: b645fe6588bfc8754a
 如果API调用失败，返回的请求会使用对应的HTTP status code, 同时返回包含了详细错误信息的JSON数据, 比如:
 
 ~~~json
-{ "error": { "code": "4006", "message": "创建新地址失败。"}}
+{ "error": { "code": 4006, "message": "创建新地址失败。"}}
 ~~~
 
 所有错误都遵循上面例子的格式，只是`code`和`message`不同。
