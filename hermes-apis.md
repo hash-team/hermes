@@ -729,7 +729,7 @@ GET {{TEST_URL}}/vv1beta/withdraws/29cb14ee-1b35-4b8c-8825-e65044afdac5
 
 * NOTIFY_URL
 
- ` 合作方提供{{NOTIFY_URL}} `
+ ` 合作方提供{{NOTIFY_URL}} 注意：合作方提供的回调通知地址只有一个，通过type区分不同动作`
  
 * 入参
 
@@ -778,7 +778,7 @@ GET {{TEST_URL}}/vv1beta/withdraws/29cb14ee-1b35-4b8c-8825-e65044afdac5
 
 * NOTIFY_URL
 
- ` 合作方提供{{NOTIFY_URL}} `
+ ` 合作方提供{{NOTIFY_URL}} 注意：合作方提供的回调通知地址只有一个，通过type区分不同动作`
  
 * 入参
 
