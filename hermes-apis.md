@@ -708,7 +708,7 @@ GET {{TEST_URL}}/v1beta/withdraws
 
 ```json
 # Request
-GET {{TEST_URL}}/vv1beta/withdraws/29cb14ee-1b35-4b8c-8825-e65044afdac5
+GET {{TEST_URL}}/v1beta/withdraws/29cb14ee-1b35-4b8c-8825-e65044afdac5
 
 # Response
 {
