@@ -742,7 +742,7 @@ GET {{TEST_URL}}/v1beta/withdraws/29cb14ee-1b35-4b8c-8825-e65044afdac5
 | memo  | string | 备注              |
 | address  | string | 地址           |
 | amount  | string | 金额            |
-
+| uuid | string | hermes唯一标示 |
 
 * 出参 （由双方沟通协定，默认如下）
 
@@ -790,6 +790,7 @@ GET {{TEST_URL}}/v1beta/withdraws/29cb14ee-1b35-4b8c-8825-e65044afdac5
 | currency_code | string | 币种code  |
 | external_uuid  | string | 合作方交易唯一标示 |
 | memo  | string | 备注 |
+| uuid | string | hermes唯一标示|
 
 
 
