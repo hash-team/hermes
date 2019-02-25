@@ -875,3 +875,8 @@ GET {{TEST_URL}}/v1beta/withdraws/29cb14ee-1b35-4b8c-8825-e65044afdac5
 | 4004        | Not found deposit's record. | 没有找到充值记录。      |
 | 4005        | Not found withdraw's record. |  没有找到提现记录。      |
 | 4006        | Failed to create a new address.  |  创建新地址失败。        |
+| 5001        | Deposit not found.  |  未发现充值记录。        |
+| 5006        | Withdraw not found. |  未发现提现记录。        |
+| 5007        | Withdraw you've submitted already exists.  |  已发现一条提现记录。        |
+| 5008        | Withdraw amount should not less than 0.000001.  |  提现最小数量为0.000001。        |
+| 5009        | Withdraw address is invalid.  |  提现地址不可用。        |
