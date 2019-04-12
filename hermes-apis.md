@@ -299,7 +299,7 @@ curl -i -H 'Content-Type: application/json' -H 'X-Hermes-Key: b645fe6588bfc8754a
 获取单个提现记录
 `GET /v1beta/withdraws/{uuid}`
 
-提现回调
+充值回调
 
 提现回调
 
